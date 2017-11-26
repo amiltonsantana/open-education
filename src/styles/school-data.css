@@ -1,0 +1,74 @@
+.school-data {
+    color:#313437;
+    background-color:#fff;
+    padding-bottom:30px;
+}
+
+@media (max-width:767px) {
+    .school-data {
+        padding-bottom: 10px;
+    }
+}
+
+.school-data p {
+    color: #7d8285;
+}
+
+.school-data h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+}
+
+@media (max-width:767px) {
+    .school-data h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.school-data .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 60px;
+}
+
+@media (max-width:767px) {
+    .school-data .intro {
+        margin-bottom: 40px;
+    }
+}
+
+.school-data .item {
+    min-height: 100px;
+    padding-left: 80px;
+    margin-bottom: 40px;
+}
+
+@media (max-width:767px) {
+    .school-data .item {
+        min-height: 0;
+    }
+}
+
+.school-data .item .name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: inherit;
+}
+
+.school-data .item .description {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.school-data .item .icon {
+    font-size: 40px;
+    color: #1485ee;
+    float: left;
+    margin-left: -65px;
+}
